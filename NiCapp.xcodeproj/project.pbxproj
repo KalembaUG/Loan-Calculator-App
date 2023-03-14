@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FBEA3B0D3E1630364C9A99E /* Pods_NiCapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E479F4967F58A250B106ED0F /* Pods_NiCapp.framework */; };
+		258EB55127A32F2900B69592 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258EB55027A32F2900B69592 /* DateCell.swift */; };
+		25C78B762799F2D0006A9CD6 /* ConfirmEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C78B752799F2D0006A9CD6 /* ConfirmEmailVC.swift */; };
+		C52A8783264B5A790061017A /* SetIncomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8782264B5A790061017A /* SetIncomeVC.swift */; };
+		C52A8786264B5A8D0061017A /* SetLiabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8785264B5A8D0061017A /* SetLiabilityVC.swift */; };
+		C52A8789264B5AAC0061017A /* SavingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8788264B5AAC0061017A /* SavingListVC.swift */; };
+		C52A878C264B5AB90061017A /* OneSavingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A878B264B5AB90061017A /* OneSavingVC.swift */; };
+		C52A878F264B5ACA0061017A /* InvestmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A878E264B5ACA0061017A /* InvestmentListVC.swift */; };
+		C52A8792264B5AD70061017A /* SetInvestmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8791264B5AD70061017A /* SetInvestmentVC.swift */; };
+		C52A8795264B5AF70061017A /* SetAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8794264B5AF70061017A /* SetAmountVC.swift */; };
+		C52A8798264B5B140061017A /* MortgageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8797264B5B140061017A /* MortgageVC.swift */; };
+		C52A879B264B5B3C0061017A /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */; };
+		C52A87C5264BF3B50061017A /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87C4264BF3B50061017A /* ForgotVC.swift */; };
+		C52A87C9264BF4930061017A /* IncomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87C7264BF4930061017A /* IncomeCell.swift */; };
+		C52A87CA264BF4930061017A /* IncomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87C8264BF4930061017A /* IncomeCell.xib */; };
+		C52A87D2264BF4C00061017A /* LiabilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87D0264BF4C00061017A /* LiabilityCell.swift */; };
+		C52A87D3264BF4C00061017A /* LiabilityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87D1264BF4C00061017A /* LiabilityCell.xib */; };
+		C52A87D7264BF4D50061017A /* SavingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87D5264BF4D50061017A /* SavingCell.swift */; };
+		C52A87D8264BF4D50061017A /* SavingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87D6264BF4D50061017A /* SavingCell.xib */; };
+		C52A87E0264BF5000061017A /* InvestmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87DE264BF5000061017A /* InvestmentCell.swift */; };
+		C52A87E1264BF5000061017A /* InvestmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52A87DF264BF5000061017A /* InvestmentCell.xib */; };
+		C52A87E5264BF5980061017A /* Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87E4264BF5980061017A /* Saving.swift */; };
+		C52A87E8264BF5AF0061017A /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87E7264BF5AF0061017A /* Income.swift */; };
+		C52A87EB264BF5BA0061017A /* Liability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87EA264BF5BA0061017A /* Liability.swift */; };
+		C52A87EE264BF5C40061017A /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87ED264BF5C40061017A /* Investment.swift */; };
+		C52A87F1264BF5E50061017A /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87F0264BF5E50061017A /* Global.swift */; };
+		C52A87F4264BF8E80061017A /* IncomeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87F3264BF8E80061017A /* IncomeCategory.swift */; };
+		C52A87F7264BF8FF0061017A /* LiabilityCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A87F6264BF8FF0061017A /* LiabilityCategory.swift */; };
+		C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB88264A8BE100631D01 /* LoginVC.swift */; };
+		C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB8C264A8BF200631D01 /* SignupVC.swift */; };
+		C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB90264A935000631D01 /* DiscloserVC.swift */; };
+		C535EB94264AA55900631D01 /* TermVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB93264AA55900631D01 /* TermVC.swift */; };
+		C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EB96264AAB2400631D01 /* HomeVC.swift */; };
+		C535EBA8264ADC6600631D01 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBA7264ADC6600631D01 /* UserVC.swift */; };
+		C535EBCD264AE30500631D01 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBCC264AE30500631D01 /* CalendarVC.swift */; };
+		C535EBD2264AE4FE00631D01 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBD1264AE4FE00631D01 /* SettingVC.swift */; };
+		C535EBDA264AFFC600631D01 /* SelDurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535EBD9264AFFC600631D01 /* SelDurationVC.swift */; };
+		C5768ECA266F2539001DB74E /* UITextField+InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5768EC9266F2539001DB74E /* UITextField+InputView.swift */; };
+		C5768ECD266F2D5A001DB74E /* UpdateIncomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5768ECC266F2D5A001DB74E /* UpdateIncomeVC.swift */; };
+		C5768ED0266F2D75001DB74E /* UpdateLiabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5768ECF266F2D75001DB74E /* UpdateLiabilityVC.swift */; };
+		C59A5692264C2D8B00F3EFC7 /* DurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A5690264C2D8B00F3EFC7 /* DurationCell.swift */; };
+		C59A5693264C2D8B00F3EFC7 /* DurationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59A5691264C2D8B00F3EFC7 /* DurationCell.xib */; };
+		C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491B2648C3130041866A /* AppDelegate.swift */; };
+		C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FA491D2648C3130041866A /* SceneDelegate.swift */; };
+		C5FA49232648C3130041866A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49212648C3130041866A /* Main.storyboard */; };
+		C5FA49252648C3150041866A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49242648C3150041866A /* Assets.xcassets */; };
+		C5FA49282648C3150041866A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FA49262648C3150041866A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		258EB55027A32F2900B69592 /* DateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		25C78B752799F2D0006A9CD6 /* ConfirmEmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmEmailVC.swift; sourceTree = "<group>"; };
+		25EEB0F027E0D36700AEA0F5 /* NiCapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NiCapp.entitlements; sourceTree = "<group>"; };
+		927042BA87CA6F69F5E2928A /* Pods-NiCapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiCapp.release.xcconfig"; path = "Target Support Files/Pods-NiCapp/Pods-NiCapp.release.xcconfig"; sourceTree = "<group>"; };
+		982A2A58EFC084902D2DDD7D /* Pods-NiCapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiCapp.debug.xcconfig"; path = "Target Support Files/Pods-NiCapp/Pods-NiCapp.debug.xcconfig"; sourceTree = "<group>"; };
+		C52A8782264B5A790061017A /* SetIncomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetIncomeVC.swift; sourceTree = "<group>"; };
+		C52A8785264B5A8D0061017A /* SetLiabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLiabilityVC.swift; sourceTree = "<group>"; };
+		C52A8788264B5AAC0061017A /* SavingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingListVC.swift; sourceTree = "<group>"; };
+		C52A878B264B5AB90061017A /* OneSavingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSavingVC.swift; sourceTree = "<group>"; };
+		C52A878E264B5ACA0061017A /* InvestmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentListVC.swift; sourceTree = "<group>"; };
+		C52A8791264B5AD70061017A /* SetInvestmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetInvestmentVC.swift; sourceTree = "<group>"; };
+		C52A8794264B5AF70061017A /* SetAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAmountVC.swift; sourceTree = "<group>"; };
+		C52A8797264B5B140061017A /* MortgageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageVC.swift; sourceTree = "<group>"; };
+		C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		C52A87C4264BF3B50061017A /* ForgotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		C52A87C7264BF4930061017A /* IncomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCell.swift; sourceTree = "<group>"; };
+		C52A87C8264BF4930061017A /* IncomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IncomeCell.xib; sourceTree = "<group>"; };
+		C52A87D0264BF4C00061017A /* LiabilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiabilityCell.swift; sourceTree = "<group>"; };
+		C52A87D1264BF4C00061017A /* LiabilityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiabilityCell.xib; sourceTree = "<group>"; };
+		C52A87D5264BF4D50061017A /* SavingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingCell.swift; sourceTree = "<group>"; };
+		C52A87D6264BF4D50061017A /* SavingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavingCell.xib; sourceTree = "<group>"; };
+		C52A87DE264BF5000061017A /* InvestmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentCell.swift; sourceTree = "<group>"; };
+		C52A87DF264BF5000061017A /* InvestmentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InvestmentCell.xib; sourceTree = "<group>"; };
+		C52A87E4264BF5980061017A /* Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saving.swift; sourceTree = "<group>"; };
+		C52A87E7264BF5AF0061017A /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		C52A87EA264BF5BA0061017A /* Liability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liability.swift; sourceTree = "<group>"; };
+		C52A87ED264BF5C40061017A /* Investment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
+		C52A87F0264BF5E50061017A /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C52A87F3264BF8E80061017A /* IncomeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeCategory.swift; sourceTree = "<group>"; };
+		C52A87F6264BF8FF0061017A /* LiabilityCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiabilityCategory.swift; sourceTree = "<group>"; };
+		C535EB88264A8BE100631D01 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C535EB8C264A8BF200631D01 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		C535EB90264A935000631D01 /* DiscloserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscloserVC.swift; sourceTree = "<group>"; };
+		C535EB93264AA55900631D01 /* TermVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermVC.swift; sourceTree = "<group>"; };
+		C535EB96264AAB2400631D01 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C535EBA7264ADC6600631D01 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		C535EBCC264AE30500631D01 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		C535EBD1264AE4FE00631D01 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		C535EBD9264AFFC600631D01 /* SelDurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelDurationVC.swift; sourceTree = "<group>"; };
+		C5768EC9266F2539001DB74E /* UITextField+InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+InputView.swift"; sourceTree = "<group>"; };
+		C5768ECC266F2D5A001DB74E /* UpdateIncomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateIncomeVC.swift; sourceTree = "<group>"; };
+		C5768ECF266F2D75001DB74E /* UpdateLiabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLiabilityVC.swift; sourceTree = "<group>"; };
+		C59A5690264C2D8B00F3EFC7 /* DurationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationCell.swift; sourceTree = "<group>"; };
+		C59A5691264C2D8B00F3EFC7 /* DurationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DurationCell.xib; sourceTree = "<group>"; };
+		C5FA49182648C3130041866A /* NiCapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiCapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FA491B2648C3130041866A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5FA491D2648C3130041866A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5FA49222648C3130041866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5FA49242648C3150041866A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5FA49272648C3150041866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5FA49292648C3150041866A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E479F4967F58A250B106ED0F /* Pods_NiCapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiCapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FA49152648C3130041866A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBEA3B0D3E1630364C9A99E /* Pods_NiCapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA9CE750D6C88556A3C98BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				982A2A58EFC084902D2DDD7D /* Pods-NiCapp.debug.xcconfig */,
+				927042BA87CA6F69F5E2928A /* Pods-NiCapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C52A879D264B5B4E0061017A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C52A87F0264BF5E50061017A /* Global.swift */,
+				C5768EC9266F2539001DB74E /* UITextField+InputView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C52A879E264B5B590061017A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				258EB55027A32F2900B69592 /* DateCell.swift */,
+				C52A87C7264BF4930061017A /* IncomeCell.swift */,
+				C52A87C8264BF4930061017A /* IncomeCell.xib */,
+				C52A87D0264BF4C00061017A /* LiabilityCell.swift */,
+				C52A87D1264BF4C00061017A /* LiabilityCell.xib */,
+				C52A87D5264BF4D50061017A /* SavingCell.swift */,
+				C52A87D6264BF4D50061017A /* SavingCell.xib */,
+				C52A87DE264BF5000061017A /* InvestmentCell.swift */,
+				C52A87DF264BF5000061017A /* InvestmentCell.xib */,
+				C59A5690264C2D8B00F3EFC7 /* DurationCell.swift */,
+				C59A5691264C2D8B00F3EFC7 /* DurationCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C52A87E3264BF57E0061017A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C52A87E4264BF5980061017A /* Saving.swift */,
+				C52A87F6264BF8FF0061017A /* LiabilityCategory.swift */,
+				C52A87E7264BF5AF0061017A /* Income.swift */,
+				C52A87EA264BF5BA0061017A /* Liability.swift */,
+				C52A87ED264BF5C40061017A /* Investment.swift */,
+				C52A87F3264BF8E80061017A /* IncomeCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C535EB87264A8BBF00631D01 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C535EB88264A8BE100631D01 /* LoginVC.swift */,
+				C535EB8C264A8BF200631D01 /* SignupVC.swift */,
+				C52A87C4264BF3B50061017A /* ForgotVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C535EB8F264A933000631D01 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25C78B752799F2D0006A9CD6 /* ConfirmEmailVC.swift */,
+				C535EB90264A935000631D01 /* DiscloserVC.swift */,
+				C535EB93264AA55900631D01 /* TermVC.swift */,
+				C535EB96264AAB2400631D01 /* HomeVC.swift */,
+				C535EBD9264AFFC600631D01 /* SelDurationVC.swift */,
+				C52A8782264B5A790061017A /* SetIncomeVC.swift */,
+				C52A8785264B5A8D0061017A /* SetLiabilityVC.swift */,
+				C5768ECC266F2D5A001DB74E /* UpdateIncomeVC.swift */,
+				C5768ECF266F2D75001DB74E /* UpdateLiabilityVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C535EBA6264ADC5400631D01 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				C535EBA7264ADC6600631D01 /* UserVC.swift */,
+				C52A8788264B5AAC0061017A /* SavingListVC.swift */,
+				C52A878B264B5AB90061017A /* OneSavingVC.swift */,
+				C52A878E264B5ACA0061017A /* InvestmentListVC.swift */,
+				C52A8791264B5AD70061017A /* SetInvestmentVC.swift */,
+				C52A8794264B5AF70061017A /* SetAmountVC.swift */,
+				C52A8797264B5B140061017A /* MortgageVC.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		C535EBCB264AE2F200631D01 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C535EBCC264AE30500631D01 /* CalendarVC.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C535EBCF264AE4D700631D01 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C535EBD1264AE4FE00631D01 /* SettingVC.swift */,
+				C52A879A264B5B3C0061017A /* ChangePasswordVC.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		C5FA490F2648C3130041866A = {
+			isa = PBXGroup;
+			children = (
+				C5FA491A2648C3130041866A /* NiCapp */,
+				C5FA49192648C3130041866A /* Products */,
+				0DA9CE750D6C88556A3C98BE /* Pods */,
+				CBE4BDCEF4B8B64AC960102A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FA49192648C3130041866A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FA49182648C3130041866A /* NiCapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5FA491A2648C3130041866A /* NiCapp */ = {
+			isa = PBXGroup;
+			children = (
+				25EEB0F027E0D36700AEA0F5 /* NiCapp.entitlements */,
+				C5FA491B2648C3130041866A /* AppDelegate.swift */,
+				C5FA491D2648C3130041866A /* SceneDelegate.swift */,
+				C52A87E3264BF57E0061017A /* Model */,
+				C52A879E264B5B590061017A /* Cell */,
+				C52A879D264B5B4E0061017A /* Utils */,
+				C535EBCF264AE4D700631D01 /* Setting */,
+				C535EBCB264AE2F200631D01 /* Calendar */,
+				C535EBA6264ADC5400631D01 /* profile */,
+				C535EB8F264A933000631D01 /* Home */,
+				C535EB87264A8BBF00631D01 /* Login */,
+				C5FA49242648C3150041866A /* Assets.xcassets */,
+				C5FA49212648C3130041866A /* Main.storyboard */,
+				C5FA49262648C3150041866A /* LaunchScreen.storyboard */,
+				C5FA49292648C3150041866A /* Info.plist */,
+			);
+			path = NiCapp;
+			sourceTree = "<group>";
+		};
+		CBE4BDCEF4B8B64AC960102A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E479F4967F58A250B106ED0F /* Pods_NiCapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FA49172648C3130041866A /* NiCapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FA492C2648C3150041866A /* Build configuration list for PBXNativeTarget "NiCapp" */;
+			buildPhases = (
+				6DFD1D08ACD060D3B014EE68 /* [CP] Check Pods Manifest.lock */,
+				C5FA49142648C3130041866A /* Sources */,
+				C5FA49152648C3130041866A /* Frameworks */,
+				C5FA49162648C3130041866A /* Resources */,
+				368A192A5DE7664C54FE7AA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiCapp;
+			productName = calculator;
+			productReference = C5FA49182648C3130041866A /* NiCapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FA49102648C3130041866A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C5FA49172648C3130041866A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C5FA49132648C3130041866A /* Build configuration list for PBXProject "NiCapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FA490F2648C3130041866A;
+			productRefGroup = C5FA49192648C3130041866A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FA49172648C3130041866A /* NiCapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FA49162648C3130041866A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FA49282648C3150041866A /* LaunchScreen.storyboard in Resources */,
+				C52A87D3264BF4C00061017A /* LiabilityCell.xib in Resources */,
+				C52A87E1264BF5000061017A /* InvestmentCell.xib in Resources */,
+				C5FA49252648C3150041866A /* Assets.xcassets in Resources */,
+				C52A87CA264BF4930061017A /* IncomeCell.xib in Resources */,
+				C5FA49232648C3130041866A /* Main.storyboard in Resources */,
+				C52A87D8264BF4D50061017A /* SavingCell.xib in Resources */,
+				C59A5693264C2D8B00F3EFC7 /* DurationCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		368A192A5DE7664C54FE7AA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiCapp/Pods-NiCapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiCapp/Pods-NiCapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiCapp/Pods-NiCapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFD1D08ACD060D3B014EE68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiCapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FA49142648C3130041866A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52A8783264B5A790061017A /* SetIncomeVC.swift in Sources */,
+				258EB55127A32F2900B69592 /* DateCell.swift in Sources */,
+				C535EBCD264AE30500631D01 /* CalendarVC.swift in Sources */,
+				C535EB97264AAB2400631D01 /* HomeVC.swift in Sources */,
+				C52A87D7264BF4D50061017A /* SavingCell.swift in Sources */,
+				C52A878F264B5ACA0061017A /* InvestmentListVC.swift in Sources */,
+				C535EB91264A935000631D01 /* DiscloserVC.swift in Sources */,
+				C535EB8D264A8BF200631D01 /* SignupVC.swift in Sources */,
+				C5768ECD266F2D5A001DB74E /* UpdateIncomeVC.swift in Sources */,
+				C52A87C9264BF4930061017A /* IncomeCell.swift in Sources */,
+				C52A87F4264BF8E80061017A /* IncomeCategory.swift in Sources */,
+				C59A5692264C2D8B00F3EFC7 /* DurationCell.swift in Sources */,
+				C52A87F1264BF5E50061017A /* Global.swift in Sources */,
+				C52A87EE264BF5C40061017A /* Investment.swift in Sources */,
+				C5768ED0266F2D75001DB74E /* UpdateLiabilityVC.swift in Sources */,
+				C535EBDA264AFFC600631D01 /* SelDurationVC.swift in Sources */,
+				C52A879B264B5B3C0061017A /* ChangePasswordVC.swift in Sources */,
+				C52A87C5264BF3B50061017A /* ForgotVC.swift in Sources */,
+				C52A8798264B5B140061017A /* MortgageVC.swift in Sources */,
+				C52A8795264B5AF70061017A /* SetAmountVC.swift in Sources */,
+				C5768ECA266F2539001DB74E /* UITextField+InputView.swift in Sources */,
+				C52A87EB264BF5BA0061017A /* Liability.swift in Sources */,
+				C52A8786264B5A8D0061017A /* SetLiabilityVC.swift in Sources */,
+				C52A878C264B5AB90061017A /* OneSavingVC.swift in Sources */,
+				C52A87F7264BF8FF0061017A /* LiabilityCategory.swift in Sources */,
+				C535EB94264AA55900631D01 /* TermVC.swift in Sources */,
+				C52A87D2264BF4C00061017A /* LiabilityCell.swift in Sources */,
+				C52A8792264B5AD70061017A /* SetInvestmentVC.swift in Sources */,
+				C52A8789264B5AAC0061017A /* SavingListVC.swift in Sources */,
+				C5FA491C2648C3130041866A /* AppDelegate.swift in Sources */,
+				C535EB89264A8BE100631D01 /* LoginVC.swift in Sources */,
+				C535EBD2264AE4FE00631D01 /* SettingVC.swift in Sources */,
+				25C78B762799F2D0006A9CD6 /* ConfirmEmailVC.swift in Sources */,
+				C52A87E8264BF5AF0061017A /* Income.swift in Sources */,
+				C535EBA8264ADC6600631D01 /* UserVC.swift in Sources */,
+				C52A87E0264BF5000061017A /* InvestmentCell.swift in Sources */,
+				C5FA491E2648C3130041866A /* SceneDelegate.swift in Sources */,
+				C52A87E5264BF5980061017A /* Saving.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5FA49212648C3130041866A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FA49222648C3130041866A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5FA49262648C3150041866A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5FA49272648C3150041866A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5FA492A2648C3150041866A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5FA492B2648C3150041866A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FA492D2648C3150041866A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982A2A58EFC084902D2DDD7D /* Pods-NiCapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NiCapp/NiCapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = LM7AM28BR9;
+				INFOPLIST_FILE = NiCapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevteam.nicapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C5FA492E2648C3150041866A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927042BA87CA6F69F5E2928A /* Pods-NiCapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NiCapp/NiCapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = LM7AM28BR9;
+				INFOPLIST_FILE = NiCapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevteam.nicapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FA49132648C3130041866A /* Build configuration list for PBXProject "NiCapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FA492A2648C3150041866A /* Debug */,
+				C5FA492B2648C3150041866A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5FA492C2648C3150041866A /* Build configuration list for PBXNativeTarget "NiCapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FA492D2648C3150041866A /* Debug */,
+				C5FA492E2648C3150041866A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FA49102648C3130041866A /* Project object */;
+}

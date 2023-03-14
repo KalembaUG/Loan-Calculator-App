@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - FSCalendar (2.8.2)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JTMaterialSpinner (3.0.5)
+  - MBCircularProgressBar (0.3.5)
+  - SimpleCheckbox (2.1.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - FSCalendar
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - JTMaterialSpinner
+  - MBCircularProgressBar
+  - SimpleCheckbox
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - FSCalendar
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - JTMaterialSpinner
+    - MBCircularProgressBar
+    - SimpleCheckbox
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JTMaterialSpinner: 28a0444186b6b2df4206a77d12f7c9dcbe604958
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 07a6898acc4dcd15f36c676b56a674c96e036b69
+
+COCOAPODS: 1.11.0
